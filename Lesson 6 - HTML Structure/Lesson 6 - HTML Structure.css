@@ -1,0 +1,29 @@
+@font-face {
+    font-family: montserrat;
+    src: url('/Lesson\ 6\ -\ HTML\ Structure/Montserrat/static/Montserrat-light.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+p{
+    font-family: montserrat;
+}
+
+.title-paragraph{
+    text-align: center;
+    width: 500px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.detail-paragraph{
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.detail-highlight{
+    text-decoration: underline;
+    cursor: pointer;
+}

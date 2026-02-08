@@ -1,0 +1,81 @@
+.grid-first{
+    display: grid;
+    grid-template-columns: 200px 70px;
+    margin-bottom: 100px
+}
+
+.grid-lightpink{
+    display: inline-block;
+    background-color: lightpink;
+}
+
+.grid-first-blue{
+    display: inline-block;
+    background-color: lightblue;
+}
+
+.grid-second{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 100px;
+}
+
+.grid-second-lightblue{
+    background-color: lightblue;
+}
+
+.grid-second-gray{
+    background-color: gray;
+}
+
+.grid-third{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 20px 20px;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-bottom: 100px;
+}
+
+.grid-fourth{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.grid-fourth-profile{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0px 1px 15px rgba(0,0,0, 0.5);
+}
+
+.grid-fourth-pics{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.grid-fourth-info{
+    display: inline-block;
+    padding: 10px 10px 10px 10px
+}
+
+.grid-fourth-name{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grid-fourth-thumnail{
+
+}
+
+.grid-fourth-relation-friend{
+
+}
+
+.grid-fourth-add{
+    
+}

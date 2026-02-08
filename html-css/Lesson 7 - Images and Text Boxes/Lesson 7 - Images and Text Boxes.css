@@ -1,0 +1,46 @@
+.image-1{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.image-2{
+    width: 150px;   
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input{
+    border-style: solid;
+}
+
+.textbox-1{
+    width: 500px;
+    height: 40px;
+    font-size: 30px;
+    border-color: gray;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+.textbox-2{
+    width: 700px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 30px;
+    border-color: white;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    box-shadow: 0px 1px 10px rgba(0,0,0, 0.5);
+}

@@ -53,29 +53,51 @@
 
 .grid-fourth-pics{
     display: inline-block;
+    vertical-align: top;
     width: 200px;
     height: 200px;
 }
 
 .grid-fourth-info{
     display: inline-block;
-    padding: 10px 10px 10px 10px
+    width: 200px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 .grid-fourth-name{
     display: inline-block;
     font-size: 20px;
     font-weight: bold;
+    padding-right: 150px;
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
 
 .grid-fourth-thumnail{
-
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    border-radius: 10px;
 }
 
 .grid-fourth-relation-friend{
-
+    display: inline-block;
+    width: 130px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .grid-fourth-add{
-    
+    margin-top: 0px;
+    color: white;
+    background-color: rgb(0, 145, 255);
+    border: none;
+    border-radius: 3px;
+    width: 90px;
+    height: 30px
 }

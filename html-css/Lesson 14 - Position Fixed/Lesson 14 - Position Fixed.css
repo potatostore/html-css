@@ -1,0 +1,26 @@
+.first-problem{
+    position: fixed;
+    background-color: black;
+    color: white;
+    bottom: 20px;
+    right: 20px;
+}
+
+.second-problem{
+    position: fixed;
+    background-color: rgb(1, 183, 1);
+    color: white;
+    width: 100px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.third-problem{
+    background-color: lightpink;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}

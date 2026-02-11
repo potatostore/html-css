@@ -1,0 +1,67 @@
+<!-- 1. create two boxes flexbox with a parameter
+     2. use nested flexbox to create two row-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Lesson 13 - Nested Flexbox.css">
+    </head>
+    <body>
+        <div class="first-problem">
+            <div style="
+                display: flex;
+                background-color: lightpink;
+                width: 100px;
+                align-items: center;
+                justify-content: center;
+                ">
+                <p style="
+                    background-color: black;
+                    color: white;
+                    ">
+                    item1
+                </p>
+            </div>
+            <div style="
+                background-color: lightblue;
+                width: 200px;
+                ">
+            </div>
+        </div>
+
+        <div class="first-problem">
+            <div style="
+                background-color: lightpink;
+                width: 100px;
+                ">
+            </div>
+
+            <div style="
+                background-color: lightblue;
+                display: flex;
+                width: 200px;
+                flex-direction: column;
+                ">
+                <p style="
+                    color: white;
+                    margin: 0 0 0 0;
+                ">row1</p>
+                <div style="
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                ">
+                    <p style="
+                        margin-top: 0;
+                        background-color: black;
+                        color:white;
+                    ">row2</p>
+                    <p style="
+                        margin-top: 0;
+                        background-color: black;
+                        color:white;
+                    ">row2</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            // 1. create 2095 cents basketball object and print in the console
+            const basketball = {
+                name : 'basketball',
+                price : 2095
+            };
+
+            console.log(basketball);
+
+            // 2. increase price 500 cents and display in the console
+            basketball.price += 500;
+
+            console.log(basketball);
+
+            // 3. using bracket notation to add a property 'delivery-time', value = '3 days' and display in the console
+            basketball.delivertyTime = '3days';
+
+            console.log(basketball);
+
+            // 4. create compare function comparePrice(product1, product2) and return less expensive object
+            function comparePrice(product1, product2){
+                if(product1.price < product2.price){
+                    return product1;
+                } 
+                else{
+                    return product2;
+                }
+            }
+
+            const soccerball = {
+                name : 'soccerball',
+                price : 1300
+            }
+
+            console.log(comparePrice(basketball, soccerball));
+
+            // 5. create function isSameProduct(product1, product2) and if two products have the same name, price, return true
+            function isSameProduct(product1, product2){
+                if(product1.name === product2.name && product1.price === product2.price){
+                    return true
+                }
+                return false;
+            }
+
+            console.log(isSameProduct(soccerball, basketball));
+
+            // 6. search how to convert string to lowercase using search engines
+            let str = 'JAVAscriPT';
+            console.log(str.toLowerCase());
+
+            // 7. search how to repeat string many times
+            let n = 5;
+            let result = '';
+            for(let i=0;i<n;i++){
+                result += str;
+            }
+            console.log(result);
+        </script>
+    </body>
+</html>

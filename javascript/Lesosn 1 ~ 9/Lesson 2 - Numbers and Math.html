@@ -1,0 +1,32 @@
+<!-- Make a receipt about Items, shipping&handling, total before tax, estimated tax, order total -->
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div>
+            <p>
+                Order Summary
+            </p>
+            <p id="items"></p>
+            <p id="handling"></p>
+            <p id="before-tax"></p>
+            <p id="after-tax"></p>
+            <p id="total"></p>
+        </div>
+
+        <script>
+            let itemPrice = 11.59;
+            let itemCount = 3;
+            let handlingCost = 4.99;
+            let taxPer = 10;
+
+            let beforeTax = itemPrice * itemCount + handlingCost;
+
+            document.getElementById('items').innerText = `items (${itemCount}): ${(itemPrice * itemCount).toFixed(2)}`;
+            document.getElementById('handling').innerText = `Shipping & handling: ${handlingCost.toFixed(2)}`;
+            document.getElementById('before-tax').innerText = `Total before tax: ${beforeTax.toFixed(2)}`;
+            document.getElementById('after-tax').innerText = `Estimated tax (${taxPer}%): ${(beforeTax * taxPer / 100).toFixed(2)}`;
+            document.getElementById('total').innerText = `Order total: $${(beforeTax + beforeTax * taxPer / 100).toFixed(2)}`;
+        </script>
+    </body>
+</html>
